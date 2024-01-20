@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.logg{
+    height: 300px;
+    width:444px ;
+    
+    position: relative;
+    top: 100px;
+    left: 418px;
+    background-color:transparent;
+    font-family:mulish;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0.1,0.1, 0.1, 0.07);
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27.57px;
+    
+}
+#p2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Mulish;
+    line-height: 30.12px;
+}
+label{
+    margin-bottom: 10px;
+}
+input{
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 8px;
+    height: 50px;
+}
+button{
+    width: 90%;
+    margin-left: 10px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    border-radius: 8px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+#p3{
+    font-family: Mulish;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: center;
+color: #463EEA;
+}
+#p4{
+    font-family: Mulish;
+font-size: 12px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0em;
+
+position: absolute;
+top: 450px;
+left: 540px;
+
+}
+span{
+    color: #463EEA;
 }
